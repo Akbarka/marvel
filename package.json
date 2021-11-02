@@ -2,7 +2,7 @@
   "name": "marvel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akbarka.github.io/marvel_starter",
+  "homepage": "https://akbarka.github.io/marveltest",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
