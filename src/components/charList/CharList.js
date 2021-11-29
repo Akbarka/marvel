@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-// import { setContent } from "../../utils/setContent";
 import { useMarvelService } from "../../services/MarvelService";
 import { Spinner } from "../spinner/Spinner";
 import { ErrorMessage } from "../errorMessage/ErrorMessage";
@@ -67,7 +66,6 @@ const CharList = (props) => {
   };
 
   const renderItems = (arr) => {
-    console.log("render");
     const items = arr.map((item, i) => {
       let imgStyle = { objectFit: "cover" };
       if (
