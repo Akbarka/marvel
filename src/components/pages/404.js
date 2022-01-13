@@ -16,6 +16,7 @@ const Page404 = () => {
           fontWeight: "bold",
           fontSize: "24px",
           marginTop: "30px",
+          color: '#9F0013'
         }}
       >
         Back to main page
