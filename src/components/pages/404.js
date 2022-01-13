@@ -9,7 +9,7 @@ const Page404 = () => {
         Page doesnt't exist
       </p>
       <Link
-        to="/"
+        to="/marvel"
         style={{
           display: "block",
           textAlign: "center",
